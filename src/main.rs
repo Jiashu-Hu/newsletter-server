@@ -7,5 +7,7 @@ use newsletter_server::run;
     so we use tokio::main to create a runtime for us
 */
 async fn main() -> std::io::Result<()> {
-    run().await
+    // Bubble up the io::Error if we failed to bind the address
+    // Otherwise call .await on our Server
+    run()?.await
 }
