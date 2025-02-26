@@ -1,0 +1,11 @@
+/Users/teddy/code/zero_to_production/newsletter_server/target/debug/deps/libwriteable-29e3ef343f56879f.rmeta: /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/lib.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/cmp.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/impls.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/ops.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/parts_write_adapter.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/testing.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/try_writeable.rs
+
+/Users/teddy/code/zero_to_production/newsletter_server/target/debug/deps/writeable-29e3ef343f56879f.d: /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/lib.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/cmp.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/impls.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/ops.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/parts_write_adapter.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/testing.rs /Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/try_writeable.rs
+
+/Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/lib.rs:
+/Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/cmp.rs:
+/Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/impls.rs:
+/Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/ops.rs:
+/Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/parts_write_adapter.rs:
+/Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/testing.rs:
+/Users/teddy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/try_writeable.rs:
