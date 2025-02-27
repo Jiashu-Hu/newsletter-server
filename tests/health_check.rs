@@ -26,7 +26,8 @@ async fn health_check_works() {
 
 // Launch our application in the background ~somehow~
 fn spawn_app() {
-    let server = newsletter_server::run().expect("Failed to bind address");
+    // port 0 will trigger the OS to assign an available port
+    let server = newsletter_server::run("127.0.0.1:0").expect("Failed to bind address");
     // Launch the server as a background task
     // tokio::spawn returns a handle to the spawned future,
     // but we have no use for it here, hence the non-binding let
