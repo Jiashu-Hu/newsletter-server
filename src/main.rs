@@ -1,4 +1,5 @@
 use actix_web::{web, App, HttpRequest, HttpResponse, HttpServer, Responder};
+use std::net::TcpListener;
 
 use newsletter_server::run;
 
@@ -9,5 +10,6 @@ use newsletter_server::run;
 async fn main() -> std::io::Result<()> {
     // Bubble up the io::Error if we failed to bind the address
     // Otherwise call .await on our Server
-    run("127.0.0.1:0")?.await
+    let listener = TcpListener::bind("127.0.0.1:0").expect("Failed to bind random port");
+    run(listener)?.await
 }

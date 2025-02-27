@@ -1,3 +1,5 @@
+use std::net::TcpListener;
+
 use actix_web::dev::Server;
 use actix_web::{web, App, HttpResponse, HttpServer};
 
@@ -8,7 +10,7 @@ async fn health_check() -> HttpResponse {
 // We need to mark 'run' as public.
 // It is no longer a binary entrypoint, therefore we can mark it as async
 // without having to use any proc-macro incantations
-pub fn run(address: &str) -> Result<Server, std::io::Error> {
+pub fn run(listener: TcpListener) -> Result<Server, std::io::Error> {
     /* HttpServer Explained
     This is where should the the application be listening requests? etc
     HttpServer handles all transport level concerns
@@ -30,7 +32,7 @@ pub fn run(address: &str) -> Result<Server, std::io::Error> {
             */
             .route("/health_check", web::get().to(health_check))
     })
-    .bind(address)?
+    .listen(listener)?
     .run();
     Ok(server)
 }
